@@ -14,7 +14,6 @@ public class HelloWorldTest {
         int answerOfFunction = helloWorld.countTwoNumbers(firstNumber, secondNumber);
 
         Assert.assertThat(answerOfFunction, CoreMatchers.is(3));
-        Assert.assertThat(answerOfFunction, CoreMatchers.is(2));
     }
 
 }
