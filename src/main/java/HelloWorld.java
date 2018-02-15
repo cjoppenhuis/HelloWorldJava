@@ -7,4 +7,7 @@ public class HelloWorld {
     public int countTwoNumbers(int first, int second) {
         return first+second;
     }
+    public int countThreeNumbers(int first, int second, int third) {
+        return first+second+third;
+    }
 }

@@ -10,10 +10,13 @@ public class HelloWorldTest {
 
         int firstNumber = 1;
         int secondNumber = 2;
+        int thirdNumber = 3;
 
         int answerOfFunction = helloWorld.countTwoNumbers(firstNumber, secondNumber);
+        int answerAgainFunction = helloWorld.countThreeNumbers(firstNumber, secondNumber, thirdNumber);
 
         Assert.assertThat(answerOfFunction, CoreMatchers.is(3));
+        Assert.assertThat(answerAgainFunction, CoreMatchers.is(6));
     }
 
 }
